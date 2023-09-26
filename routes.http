@@ -1,4 +1,4 @@
-POST https://projeto-estudo-nodejs.onrender.com/videos
+POST https://projeto-estudo-nodejs.onrender.com/videos 
 Content-Type: application/json
 
 {
@@ -13,11 +13,11 @@ GET https://projeto-estudo-nodejs.onrender.com/videos?search=node
 
 ###
 
-PUT https://projeto-estudo-nodejs.onrender.com/videos/e142ca84-4b61-412d-94a8-9d4202d3108c
+PUT https://projeto-estudo-nodejs.onrender.com/videos/6555bc46-ffe9-45e4-b47a-28d540cb7f6a
 Content-Type: application/json
 
 {
-    "title": "Vídeo 2 teste",
+    "title": "Vídeo 2 teste node",
     "description": "Esse é o vídeo 1",
     "duration": 180
 }
