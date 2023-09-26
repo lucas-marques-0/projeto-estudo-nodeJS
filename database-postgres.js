@@ -19,7 +19,7 @@ export class DatabasePostgres {
 
     async update(id, video) {
         const {title, description, duration } = video
-        await sql `update videos set title = ${title}, description = ${description}, duration = ${duration} WHERE id = ${id}`
+        await sql `UPDATER videos SET title = ${title}, description = ${description}, duration = ${duration} WHERE id = ${id}`
     }
 
     async delete(id) {
